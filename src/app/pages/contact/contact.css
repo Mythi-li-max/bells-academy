@@ -1,0 +1,130 @@
+/* ================================
+   CONTACT PAGE – PROFESSIONAL UI
+   ================================ */
+
+.contact-hero {
+  background: linear-gradient(
+    135deg,
+    #0b3c5d,
+    #1e81b0
+  );
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.contact-hero p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* MAIN SECTION */
+.contact-section {
+  display: flex;
+  gap: 40px;
+  padding: 60px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f5f7fa;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  background: #ffffff;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #0b3c5d;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.contact-info a {
+  color: #1e81b0;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.map-btn {
+  margin-top: 15px;
+  background-color: #f4b400;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.map-btn {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* FORM */
+.contact-form {
+  background: #ffffff;
+  padding: 30px;
+  width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  color: #0b3c5d;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0b3c5d;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contact-form form button:hover {
+  background-color: #092f47;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-info,
+  .contact-form {
+    width: 90%;
+  }
+}
+.contact-info,
+.contact-form {
+  animation: fadeIn 1s ease forwards;
+}

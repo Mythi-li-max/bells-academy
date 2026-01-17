@@ -1,0 +1,80 @@
+/* ================================
+   CLASSES PAGE – PROFESSIONAL UI
+   ================================ */
+
+.classes-hero {
+  background: linear-gradient(
+    135deg,
+    #0b3c5d,
+    #1e81b0
+  );
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.classes-hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.classes-hero p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* CARDS SECTION */
+.classes-section {
+  display: flex;
+  gap: 30px;
+  padding: 60px 20px;
+  justify-content: center;
+  background-color: #f5f7fa;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  background: #ffffff;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+.class-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.class-card h3 {
+  margin: 20px 0 10px;
+  color: #0b3c5d;
+  font-size: 20px;
+}
+
+.class-card p {
+  padding: 0 20px 25px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .class-card {
+    width: 90%;
+  }
+}
+.class-card {
+  animation: slideUp 0.9s ease forwards;
+}
